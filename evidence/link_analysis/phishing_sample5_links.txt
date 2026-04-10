@@ -1,0 +1,6 @@
+Link Analysis - Sample 5 (Mailbox Storage)
+==========================================
+Visible Link Text : "Verify & Upgrade Storage"
+Actual URL        : hxxps://it-servicedesk-portal[.]com/verify/... (defanged)
+Risk              : Critical
+Notes             : Button leads to fake login page for credential harvesting. Uses fake ticket number and tight deadline to create panic.

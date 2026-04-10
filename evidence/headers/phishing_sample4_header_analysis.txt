@@ -1,0 +1,13 @@
+Phishing Sample 4 - DocuSign "Updated Employee Handbook"
+========================================================
+
+Tool Used: MxToolbox + Thunderbird Message Source
+
+Key Header Findings:
+- Return-Path              : hr-department@docusign-secure.net (fake)
+- Sender Domain            : docusign-secure.net (impersonating DocuSign)
+- Sending IP               : 149.28.144.73 (Vultr VPS)
+- SPF / DKIM / DMARC       : All Failed (Blacklisted)
+- Received From            : vps-8291034.vultr.com
+
+Conclusion: Clear spoofing attempt using a public VPS. No legitimate DocuSign infrastructure was used.

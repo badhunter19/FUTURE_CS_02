@@ -1,0 +1,15 @@
+Phishing Sample 3 - PayPal Payment Confirmation Scam
+====================================================
+
+Tool Used: MxToolbox + Thunderbird Message Source
+
+Key Header Findings:
+- Return-Path              : accounting@paypaI-resolution.com (spoofed)
+- Sender Domain            : paypaI-resolution.com (note capital "I")
+- Sending IP               : 87.120.37.118 (Hostkey, Netherlands)
+- SPF                      : FAIL
+- DKIM                     : FAIL
+- DMARC                    : FAIL
+- X-Priority               : 1 (High Priority)
+
+Conclusion: Clear spoofing. The email was sent from a public hosting provider, not from PayPal's official infrastructure. All authentication checks failed.

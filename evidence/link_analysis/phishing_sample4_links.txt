@@ -1,0 +1,6 @@
+Link Analysis - Sample 4 (DocuSign)
+===================================
+Visible Link Text : "REVIEW DOCUMENT"
+Actual URL        : hxxps://docusign-secure[.]net/review/... (defanged)
+Risk              : Critical
+Notes             : Button leads to fake DocuSign login page designed for credential theft.

@@ -1,0 +1,6 @@
+Link Analysis - Sample 2 (Microsoft)
+====================================
+Visible Link Text : "Review recent activity"
+Actual URL        : hxxps://microsoftonline-verify[.]com/... (defanged)
+Risk              : Critical
+Notes             : The link impersonates Microsoft and leads to a credential-harvesting fake login page.

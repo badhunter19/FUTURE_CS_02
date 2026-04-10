@@ -1,0 +1,5 @@
+Link Analysis - Sample 1
+========================
+Visible Text: Start Spinning Now
+Actual URL : hxxp://534617.vav.proo55[.]us.com/claim?...   (or whatever you see)
+Risk       : Very High – Random subdomain, not a real casino domain

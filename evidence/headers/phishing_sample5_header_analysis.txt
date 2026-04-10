@@ -1,0 +1,15 @@
+Phishing Sample 5 - Mailbox Storage Full Alert
+==============================================
+
+Tool Used: MxToolbox + Thunderbird Message Source
+
+Key Header Findings:
+- Return-Path              : helpdesk@it-servicedesk-portal.com
+- Sender Domain            : it-servicedesk-portal.com (fake IT portal)
+- Sending IP               : 72.184.231.94 (Verizon residential IP)
+- SPF                      : FAIL
+- DKIM                     : None
+- DMARC                    : FAIL
+- X-Priority               : 1 (High Priority)
+
+Conclusion: Email sent from a residential IP using a fake IT support domain. All authentication checks failed. Classic urgency-based phishing.

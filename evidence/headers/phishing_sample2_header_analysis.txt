@@ -1,0 +1,14 @@
+Phishing Sample 2 - Microsoft Unusual Sign-in Activity
+======================================================
+
+Tool Used: MxToolbox + Thunderbird Message Source
+
+Key Findings:
+- Return-Path              : noreply@microsoftonline-verify.com (fake)
+- Sending IP               : 178.238.225.91 (Contabo VPS, Germany)
+- SPF                      : FAIL
+- DKIM                     : FAIL
+- DMARC                    : FAIL
+- X-Priority               : 1 (High Priority)
+
+Conclusion: Clear spoofing attempt. The email was sent from a public VPS server, not from Microsoft. All authentication checks failed.

@@ -1,0 +1,15 @@
+Phishing Sample 1 - Casino "50 Spins" Welcome Gift
+==================================================
+
+Tool Used: Google Toolbox Message Header Analyzer + Thunderbird (View Source)
+Analyzed on: April 2026
+
+Key Header Findings:
+- Return-Path          : bounce@vav.proo55.us.com
+- Sending IP           : 141.95.0.46 (OVH VPS, France)
+- SPF Result           : Pass (only for suspicious domain vav.proo55.us.com)
+- DKIM Result          : Pass (attacker-controlled subdomain)
+- Auto-Submitted       : auto-replied → indicates bulk / bot-generated mail
+- From Domain          : Random numbers + .us.com subdomain (not a real casino)
+
+Conclusion: Email originated from attacker-controlled infrastructure. SPF/DKIM passing does NOT mean legitimate — it only means the attacker configured their own domain properly.

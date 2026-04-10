@@ -1,0 +1,6 @@
+Link Analysis - Sample 3 (PayPal)
+=================================
+Visible Link Text : "Dispute This Transaction"
+Actual URL        : hxxps://paypaI-resolution[.]com/dispute/... (defanged)
+Risk              : Critical
+Notes             : Button leads to fake PayPal login page for credential harvesting. Domain uses "paypaI" (capital I) to mimic "paypal".
